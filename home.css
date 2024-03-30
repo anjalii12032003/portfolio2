@@ -1,0 +1,348 @@
+
+#home {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: auto auto; /* Two columns, first column auto-sized (for profile pic), second column takes remaining space */
+    grid-column-gap: 20px; /* Gap between columns */
+
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.bg-color1{
+    background:#0a301a;
+}
+
+header {
+    background-color: #0a301a;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+header h1{
+    text-align: left;
+    color:#fff
+    
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+#welcome-heading {
+    overflow: hidden;
+    border-right: .1em solid rgb(17, 17, 17); /* Change color as needed */
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 5s steps(40, end); /* Adjust timing as needed */
+    
+}
+
+.profile-pic {
+    width: 250px; /* Adjust size as needed */
+    height: 450px; /* Adjust size as needed */
+    border-radius: 50%; /* Create a circle */
+    overflow: hidden; /* Hide overflowing content */
+    margin: 0 auto 20px; /* Center the image and add margin */
+    background-image: url('profile_pic.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff; /* Optional: Add border to give it a circular frame */
+}
+
+.content h2{
+    
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.content {
+    margin:50px;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    color: rgb(15, 14, 14); /* Text color */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    
+    }
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:20px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+section {
+    padding: 20px;
+    margin-left: 0%;
+}
+.instagram-link {
+    color: #007bff;
+}
+.email-link{
+    color: #007bff;
+}
+.linkedin-link {
+    color: #007bff;
+}
+
+
+
+
+
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.about-section {
+  
+    max-width: 980px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info-section {
+    max-width: 980px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown-text {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 10px 0;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-content ul li {
+    margin-bottom: 5px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.instagram-link {
+    color: #007bff;
+}
+.email-link{
+    color: #007bff;
+}
+.linkedin-link {
+    color: #007bff;
+}
+
+
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color:#0a301a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* styles.css */
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+
+.links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #555;
+}
+
+.instagram-link {
+    color: #007bff;
+}
+.email-link{
+    color: #007bff;
+}
+.linkedin-link {
+    color: #007bff;
+}
+
+
+/* styles.css */
+
+
+header {
+    background-color: #0a301a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    text-align: left;
+    color:#fff
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0a301a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.instagram-link {
+    color: #007bff;
+}
+.email-link{
+    color: #007bff;
+}
+.linkedin-link {
+    color: #007bff;
+}
+
